@@ -38,8 +38,11 @@ const Header = ({ t }: { t: TFunction }) => {
 
     return (
       <>
+        <CustomNavLinkSmall onClick={() => history.push('/team')}>
+          <Span>{t('Team Tenca')}</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo('about')}>
-          <Span>{t('Về Chúng Tôi')}</Span>
+          <Span>{t('Về Tenca')}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo('mission')}>
           <Span>{t('Sứ Mệnh')}</Span>
@@ -50,9 +53,9 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo('product')}>
           <Span>{t('Sản Phẩm')}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall style={{ width: '180px' }} onClick={() => scrollTo('contact')}>
+        <CustomNavLinkSmall style={{ width: '160px' }} onClick={() => scrollTo('contact')}>
           <Span>
-            <Button>{t('Liên Hệ')}</Button>
+            <Button color='#F471B3'>{t('Liên Hệ')}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>

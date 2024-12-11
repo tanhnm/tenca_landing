@@ -5,6 +5,7 @@ import AboutContent from '../../content/AboutContent.json';
 import MissionContent from '../../content/MissionContent.json';
 import ProductContent from '../../content/ProductContent.json';
 import ContactContent from '../../content/ContactContent.json';
+import Carousel from '../../components/Carousell';
 
 const Contact = lazy(() => import('../../components/ContactForm'));
 const MiddleBlock = lazy(() => import('../../components/MiddleBlock'));
@@ -25,9 +26,8 @@ const Home = () => {
         icon='/img/landing/landing-images-3.jpg'
         id='intro'
       />
-      <ImgBlock
-        images={['/img/landing/landing-images-1.jpg', '/img/landing/landing-images-2.jpg']}
-      />
+      <Carousel />
+      <ImgBlock images={['/img/landing/landing-images-2.png']} />
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}

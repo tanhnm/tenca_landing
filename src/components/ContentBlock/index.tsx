@@ -42,7 +42,7 @@ const ContentBlock = ({
           </Col>
           <Col lg={11} md={12} sm={10} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              <h6 style={{ color: '#F471B3' }}>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {direction === 'right' ? (
                 <ButtonWrapper>

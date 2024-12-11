@@ -94,9 +94,10 @@ const Footer = ({ t }: { t: TFunction }) => {
                 href='https://www.facebook.com/profile.php?id=61567470094988'
                 src='facebook.svg'
               />
+              <SocialLink href='https://www.youtube.com/@Tenca-w6g' src='youtube.svg' />
               <SocialLink
-                href='https://www.facebook.com/profile.php?id=61567470094988'
-                src='youtube.svg'
+                href='https://open.spotify.com/user/31bsu67qfgoafxfy6axtpzjnznn4'
+                src='spotify.svg'
               />
               <SocialLink href='https://www.instagram.com/tenca_tts' src='instagram.svg' />
               <a href='https://ko-fi.com/Y8Y7H8BNJ' target='_blank' rel='noopener noreferrer'>

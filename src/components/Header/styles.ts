@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { MenuOutlined } from "@ant-design/icons";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { MenuOutlined } from '@ant-design/icons';
 
-export const HeaderSection = styled("header")`
-  padding: 1rem 0.5rem;
+export const HeaderSection = styled('header')`
+  padding: 0.5rem 0.2rem;
 
   .ant-row-space-between {
     align-items: center;
@@ -15,13 +15,13 @@ export const LogoContainer = styled(Link)`
   display: flex;
 `;
 
-export const NavLink = styled("div")`
+export const NavLink = styled('div')`
   display: inline-block;
   text-align: center;
 `;
 
-export const CustomNavLink = styled("div")`
-  width: 203px;
+export const CustomNavLink = styled('div')`
+  width: 180px;
   display: inline-block;
 
   @media only screen and (max-width: 411px) {
@@ -33,7 +33,7 @@ export const CustomNavLink = styled("div")`
   }
 `;
 
-export const Burger = styled("div")`
+export const Burger = styled('div')`
   @media only screen and (max-width: 890px) {
     display: block;
   }
@@ -45,20 +45,20 @@ export const Burger = styled("div")`
   }
 `;
 
-export const NotHidden = styled("div")`
+export const NotHidden = styled('div')`
   @media only screen and (max-width: 890px) {
     display: none;
   }
 `;
 
-export const Menu = styled("h5")`
-  font-size: 1.5rem;
+export const Menu = styled('h5')`
+  font-size: 1rem;
   font-weight: 600;
   text-align: center;
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #18216d;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
@@ -68,7 +68,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
   }
 `;
 
-export const Label = styled("span")`
+export const Label = styled('span')`
   font-weight: 500;
   color: #404041;
   text-align: right;
@@ -78,17 +78,18 @@ export const Label = styled("span")`
 `;
 
 export const Outline = styled(MenuOutlined)`
-  font-size: 22px;
+  font-size: 18px;
 `;
 
-export const Span = styled("span")`
+export const Span = styled('span')`
+  color: '#F471B3';
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
   &:hover,
   &:active,
   &:focus {
-    color: rgb(255, 130, 92);
+    color: #b5c171;
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }

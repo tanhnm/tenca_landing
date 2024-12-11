@@ -1,18 +1,23 @@
 const routes = [
   {
-    path: ["/", "/home"],
+    path: ['/', '/home'],
     exact: true,
-    component: "Home",
+    component: 'Home',
   },
   {
-    path: "/blog",
+    path: '/blog',
     exact: true,
-    component: "Blog",  // Đường dẫn đến trang danh sách blog
+    component: 'Blog', // Đường dẫn đến trang danh sách blog
   },
   {
-    path: "/blog/post/:postId",  // Đường dẫn đến trang chi tiết bài viết
+    path: '/team',
     exact: true,
-    component: "BlogPost",
+    component: 'Team', // Đường dẫn đến trang danh sách blog
+  },
+  {
+    path: '/blog/post/:postId', // Đường dẫn đến trang chi tiết bài viết
+    exact: true,
+    component: 'BlogPost',
   },
 ];
 
