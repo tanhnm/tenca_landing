@@ -1,0 +1,18 @@
+{
+  "title": "Hành Trình Hạnh Phúc - Khám Phá Bản Thân Cùng TENCA",
+  "text": "Khăn Giấy Dung Dịch Vệ Sinh Vùng Kín TENCA - Giải pháp tiện lợi, dịu nhẹ và an toàn giúp bạn chăm sóc sức khỏe vùng kín mỗi ngày. Tự tin hơn trong hành trình khám phá bản thân với sản phẩm được chiết xuất từ thiên nhiên và công thức cân bằng pH.",
+  "button": [
+    {
+      "title": "Khám Phá Sản Phẩm",
+      "color": "#F471B3", 
+      "background": "#B5C171"
+    },
+    {
+      "title": "Tìm Hiểu Thêm",
+      "color": "#FFFFFF", 
+      "background": "#AFD6FD"
+    }
+  ],
+  "background": "#F471B3",
+  "accentColor": "#AFD6FD"
+}

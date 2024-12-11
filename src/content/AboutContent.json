@@ -1,0 +1,16 @@
+{
+  "title": "Chăm sóc tiện lợi, an toàn & mọi lúc mọi nơi",
+  "text": "Khăn Giấy Dung Dịch Vệ Sinh Vùng Kín TENCA mang đến sự tự tin và thoải mái cho phụ nữ. Với thiết kế tiện lợi và thành phần tự nhiên, sản phẩm luôn đồng hành cùng bạn dù ở bất cứ đâu.",
+  "section": [
+    {
+      "title": "Vì sao chọn TENCA?",
+      "content": "TENCA là giải pháp vệ sinh vùng kín hoàn hảo, với công thức dịu nhẹ giúp bảo vệ sức khỏe và duy trì độ pH cân bằng tự nhiên.",
+      "icon": "soap-solid.svg"
+    },
+    {
+      "title": "Thiết kế tiện lợi",
+      "content": "Sản phẩm được thiết kế nhỏ gọn, dễ mang theo và sử dụng nhanh chóng, phù hợp với mọi tình huống trong cuộc sống hàng ngày.",
+      "icon": "toilet-portable-solid.svg"
+    }
+  ]
+}
